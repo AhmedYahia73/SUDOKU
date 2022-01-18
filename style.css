@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.start, .sol{
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(51, 51, 209);
+    color: white;
+    border-radius: 15px;
+    border: none;
+}
+.main0,.main1{
+    width: 350px;
+}
+.main0 h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main0 .main1{
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(66, 10, 10);
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.main0 select{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.sol{
+    margin-left: 30px;
+}
+.main .tbl td{
+    width: 35px;
+    height: 35px;
+    border: 2px solid rgb(0, 0, 0);
+}
+.main{
+    min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main .tbl{
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.main .tbl td input{
+    width: 35px;
+    height: 35px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
